@@ -1,35 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
-    <title>Currículo</title>
+    <title>Victor Siqueira Campos - Currículo</title>
 </head>
 <body>
-    <div id="head">
-        <h1>Currículo Lattes</h1>
-        <h2>Victor Siqueira Campos</h2>
-    </div>
-    <hr>
-    <div id="sobreMim">
-        <h3 class="categoria">Sobre mim</h3>
-        <p>Tenho 29 anos e procuro fazer transição de carreira para o mercado de tecnologia</p>
-    </div>
-    <div id="habilidades">    
-        <h3 class="categoria">Habilidades</h3>    
-        <div id="hardSkills">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" class="icon"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" class="icon"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" class="icon"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg" class="icon"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original-wordmark.svg" class="icon"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" class="icon"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" class="icon"/>
+    <header id="head">
+        <h1>Victor Siqueira Campos</h1>
+        <h2>Desenvolvedor em Formação</h2>
+        <div class="contact-info">
+            <p>📧 victoriussiqueira@gmail.com | 📱 (81) 98855-9015</p>
+            <img src="imagens/eu.jpeg" alt="minha foto" width="150px" id="minhaFoto">
         </div>
-        <div id="softSkills"></div>
-    </div>
-    <script src="index.js"></script>
+    </header>
+
+    <main>
+        <section id="sobreMim">
+            <h3 class="categoria">Sobre Mim</h3>
+            <p>Desenvolvedor em formação, em transição de carreira para a área de tecnologia. 
+               Tenho interesse por programação, lógica e soluções criativas. Busco aplicar o que 
+               venho aprendendo para crescer profissionalmente e contribuir com projetos inovadores, 
+               unindo prática e aprendizado contínuo.</p>
+        </section>
+
+        <section id="formacao">
+            <h3 class="categoria">Formação Acadêmica</h3>
+            <div class="education-item">
+                <h4>Análise e Desenvolvimento de Sistemas</h4>
+                <p><strong>Senac</strong> - Em andamento</p>
+            </div>
+            <div class="education-item">
+                <h4>Java Developer</h4>
+                <p><strong>Certificação Concluída</strong></p>
+                <img src="imagens/certificado.jpg" alt="Certificado Java Developer" width="300px" class="certificate">
+            </div>
+        </section>
+
+        <section id="habilidades">    
+            <h3 class="categoria">Competências Técnicas</h3>
+            <div id="skills">
+                <div id="hardSkills" class="skill">
+                    <h4>Tecnologias</h4>
+                    <div class="tech-icons">
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" class="icon" alt="Java"/>
+
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" class="icon" alt="JavaScript"/>
+
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" class="icon" alt="Python"/>
+
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg" class="icon" alt="Spring"/>
+
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" class="icon" alt="HTML5"/>
+
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" class="icon" alt="CSS3"/>
+
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original-wordmark.svg" class="icon" alt="Azure"/>
+
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="softSkills" class="skill">
+                    <h4>Competências Comportamentais</h4>
+                    <ul>
+                        <li>Resolução de problemas</li>
+                        <li>Aprendizado contínuo</li>
+                        <li>Pensamento analítico</li>
+                        <li>Adaptabilidade</li>
+                        <li>Trabalho em equipe</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia">
+            <h3 class="categoria">Experiência Profissional</h3>
+            <div class="experience-item">
+                <h4>Técnico em Laboratório de Lentes Oftálmicas</h4>
+                <p class="company">Empresa do setor óptico</p>
+                <ul>
+                    <li>Análise técnica e controle de qualidade</li>
+                    <li>Resolução de problemas técnicos</li>
+                    <li>Atenção aos detalhes e precisão</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h4>Atendente / Estoquista</h4>
+                <p class="company">Experiências anteriores</p>
+                <ul>
+                    <li>Atendimento ao cliente</li>
+                    <li>Organização e controle de estoque</li>
+                    <li>Trabalho em equipe</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h3 class="categoria">Projetos</h3>
+            <p>Meus projetos atuais são acadêmicos e de aprendizagem, desenvolvidos ao longo da 
+               faculdade e estudos pessoais. Eles demonstram minha evolução prática em programação 
+               e desenvolvimento de sistemas.</p>
+            <div class="projects-link">
+                <p><strong>📂 Todos os projetos estão disponíveis no meu GitHub</strong></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Contatos</h3>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/victor-siqueira-campos-ai/" target="_blank" aria-label="LinkedIn">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" class="icon" alt="LinkedIn"/>
+            </a>
+            <a href="https://github.com/Senhoril" target="_blank" aria-label="GitHub">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" class="icon" alt="GitHub"/>
+            </a>
+            <a href="mailto:victoriussiqueira@gmail.com" aria-label="Email">
+                <img src="https://img.icons8.com/?size=100&id=37246&format=png&color=000000" alt="Gmail" class="icon">
+            </a>
+            <a href="https://wa.me/5581988559015" target="_blank" aria-label="WhatsApp">
+                <img src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000" alt="WhatsApp" class="icon">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
